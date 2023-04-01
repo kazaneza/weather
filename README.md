@@ -61,7 +61,7 @@ See [video demo]().
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Visit [live site](https://air-pollution-europe-7576b1.netlify.app/).
+- Visit [live site]().
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
