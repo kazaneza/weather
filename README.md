@@ -1,70 +1,177 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
 
-## Available Scripts
+  <h1><b>Air-Pollution-Metrics</b></h1><br/><br/>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+# 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖 Air-Pollution-Metrics-React <a name="about-project"></a>
 
-### `npm test`
+This is a web application that displays green-house gas emission data in European countries.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application fetches real live data from the Air pollution API. The application allows users to interact with it by clicking on a specific country which will then display the gas stats for that country's capital.
 
-### `npm run build`
+See [video demo](https://www.loom.com/share/83eb646a05d242c4881b88d230f90273).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech Stack <a name="tech-stack"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<summary>Client</summary>
+<ul>
+  <li><a href="https://reactjs.org/">React.js</a></li>
+  <li><a href="https://sass-lang.com/">Sass</a></li>
+  <li><a href="https://react-bootstrap.github.io/">React Bootstrap</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a></li>
+</ul>
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Single Page App**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Search bar**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Gitflow**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **REST APIs**
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Live Demo <a name="live-demo"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Visit [live site](https://air-pollution-europe-7576b1.netlify.app/).
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Analyzing the Bundle Size
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Prerequisites
 
-### Making a Progressive Web App
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- A browser (e.g. Firefox)
+- An IDE (e.g. [Vususal Studio Code](https://code.visualstudio.com/download))
+- [npm](https://nodejs.org/en/)
 
-### Advanced Configuration
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To clone this repository to your desired folder, follow the steps below:
+
+**Using the command line**
+
+- Use the following commands
+
+```sh
+  cd my-folder
+  git clone git@github.com:kazaneza/Euro-air-pollution.git
+```
+
+**Using GitHub Desktop app**
+
+- Follow the steps below
+
+  - Visit this link "git@github.com:kazaneza/Euro-air-pollution.git"
+  - Click the green button labelled "code"
+  - Select the "Open with GitHub Desktop" option
+  - After the GitHub Desktop add opens, click the "clone repo" button
+
+### Install
+
+Install this project's dependencies with the following command:
+
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm run dev
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project by running following command:
 
-### `npm run build` fails to minify
+```sh
+  npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="author"></a>
+
+| 👤 Author | GitHub | Twitter | LinkedIn |
+| :-- | :-- | :-- | :-- |
+| Miles Mosweu | [@Kazaneza](https://github.com/kazaneza) | [@Kazaneza](https://twitter.com/kazaneza) | [@Kazaneza](https://www.linkedin.com/in/gentil-kazaneza/) |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Implement a desktop version.**
+- [ ] **Implement more functionality.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/kazaneza/Euro-air-pollution/issues/1).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, give it a ⭐️ and let me know what you like in particular.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the whole Microverse community for their help and contributions towards this project.
+
+I would also like to appreciate [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the design template and [Flaticon](https://www.flaticon.com/) for the home page hero-image and the flag icons.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
