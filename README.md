@@ -1,14 +1,9 @@
 <a name="readme-top"></a>
 
-<div>
-
-  <h1><b>Air-Pollution-Metrics</b></h1><br/><br/>
-
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [:camera: project screenshot](#screen-shoot)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -18,155 +13,103 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Author](#author)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Air-Pollution-Metrics-React <a name="about-project"></a>
+# weather<a name="about-project"></a>
 
-This is a web application that displays green-house gas emission data in European countries.
+<p> A web application that provides information about geo location and information about countries and their weather conditions in a day.
+</p>
 
-The application fetches real live data from the Air pollution API. The application allows users to interact with it by clicking on a specific country which will then display the gas stats for that country's capital.
+## 🛠 Built With <a name="built-with"> </a>
 
-See [video demo]().
-
-## 🛠 Built With <a name="built-with"></a>
+> HTML5, Css3, JavaScript ES6, Reactjs, Redux and external API
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<summary>Client</summary>
-<ul>
-  <li><a href="https://reactjs.org/">React.js</a></li>
-  <li><a href="https://sass-lang.com/">Sass</a></li>
-  <li><a href="https://react-bootstrap.github.io/">React Bootstrap</a></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a></li>
-</ul>
+> React, redux, axios, jest, webpack and babel
 
 ### Key Features <a name="key-features"></a>
 
-- **Single Page App**
-
-- **Search bar**
-
-- **Gitflow**
-
-- **REST APIs**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <li>Geo location of countries</li>
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Visit [live site]().
+- [Live Demo Link]()
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+to run on your localhost clone the project to local folder
 
-### Prerequisites
-
-In order to run this project you need:
-
-- A browser (e.g. Firefox)
-- An IDE (e.g. [Vususal Studio Code](https://code.visualstudio.com/download))
-- [npm](https://nodejs.org/en/)
+> <p>cd weather</p>
+> <p>npm install</p>
+> <p> npm start<p>
 
 ### Setup
 
-To clone this repository to your desired folder, follow the steps below:
+> <p> git clone git@github.com:Lancelot-SO/weather.git</p>
+> cd weather
 
-**Using the command line**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Use the following commands
+### Prerequisites
 
-```sh
-  cd my-folder
-  git clone git@github.com:kazaneza/Euro-air-pollution.git
-```
+In order to run this project you only need:
 
-**Using GitHub Desktop app**
-
-- Follow the steps below
-
-  - Visit this link "git@github.com:kazaneza/Euro-air-pollution.git"
-  - Click the green button labelled "code"
-  - Select the "Open with GitHub Desktop" option
-  - After the GitHub Desktop add opens, click the "clone repo" button
+- latest web-browser
+- node.js and npm
 
 ### Install
 
-Install this project's dependencies with the following command:
+To install this project in your local machine use
 
-```sh
-  npm install
-```
+> <p> npm i </p>
+> npm run build
 
 ### Usage
 
 To run the project, execute the following command:
 
-```sh
-  npm run dev
-```
+> In visual studio code open terminal then write "npm start" after on your browser open "http://localhost:3000".
 
-### Run tests
+## 👥 Authors <a name="authors"></a>
 
-To run tests, run the following command:
+👤 **Felix Sowah**
 
-```sh
-  npm test
-```
-
-### Deployment
-
-You can deploy this project by running following command:
-
-```sh
-  npm run deploy
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 👥 Author <a name="author"></a>
-
-| 👤 Author | GitHub | Twitter | LinkedIn |
-| :-- | :-- | :-- | :-- |
-| Miles Mosweu | [@Kazaneza](https://github.com/kazaneza) | [@Kazaneza](https://twitter.com/kazaneza) | [@Kazaneza](https://www.linkedin.com/in/gentil-kazaneza/) |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- GitHub: [@githubhandle](https://github.com/kazaneza)
+- Twitter: [@twitterhandle](https://twitter.com/kazaneza)
+- LinkedIn: [LinkedIn](hhtps://www.linkedin.com/in/gentil-kazaneza)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement a desktop version.**
-- [ ] **Implement more functionality.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+> **Add map and population**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kazaneza/Euro-air-pollution/issues/1).
+Feel free to check the [issues page](https://github.com/kazaneza/weather/issues/1).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, give it a ⭐️ and let me know what you like in particular.
+> If you like the project please give it star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the whole Microverse community for their help and contributions towards this project.
-
-I would also like to appreciate [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the design template and [Flaticon](https://www.flaticon.com/) for the home page hero-image and the flag icons.
+> I would like to thank Microverse team and also thank Nelson Sakwa on Behance for this amazing peace of art.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
