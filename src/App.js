@@ -1,26 +1,17 @@
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>To do app</h1>
-      <div className ="todo-wrapper">
-        <div className='todo-input'>
-          <div className='todo-input-itemdddadf'>
-            <label>Title</label>
-            <input type="text" placeholder="What's the task title?" />
-          </div>
-          <div className='todo-input-item'>
-            <label>Description</label>
-            <input type="text" placeholder="What's the task description?" />
-          </div>
-          <div className='todo-input-item'>
-            <button>Add</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+import './App.css';
+import HomePage from './pages/HomePage/HomePage';
+import DetailsPage from './pages/DetailsPage/DetailsPage';
+
+const App = () => (
+  <Layout>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/details/:cc" element={<DetailsPage />} />
+    </Routes>
+  </Layout>
+);
 
 export default App;
