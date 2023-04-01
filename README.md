@@ -43,6 +43,10 @@
 
 - [Live Demo Link](https://timely-speculoos-19a523.netlify.app/)
 
+## 🚀 Recorded video <a name="recorded-video"></a>
+
+- [Loom video](https://drive.google.com/file/d/117yb5GygrAotnejGATwf4JgvoLUnMk0c/view?usp=sharing)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
